@@ -1,0 +1,90 @@
+<html>
+<head>
+
+
+
+</head>
+	
+
+<body>
+
+<script>
+/*
+var x = prompt("Ingrese un numero para X: ");
+var y = prompt("Ingrese un numero para Y: ");
+
+
+console.log("x: "+x);
+document.write("x: "+x+"<br>");
+console.log("y: "+y);
+document.write("y: "+y+"<br>");
+
+var numerox = parseInt(x);
+var numeroy = parseFloat(y);
+
+console.log("x: "+numerox);
+document.write("x: "+numerox+"<br>");
+console.log("y: "+numeroy);
+document.write("y: "+numeroy+"<br>");
+*/
+
+//Funcion definida por el usuario 
+/*
+var resultado = 0;
+console.log("Respuesta: "+resultado);
+document.write("Respuesta: "+resultado+"<br>");
+
+function suma_y_muestra(){
+	var numero1 = parseInt(prompt("Ingrese el primer sumando: "));
+	var numero2 = parseInt(prompt("Ingrese el segundo sumando: "));
+	resultado = numero1 + numero2;
+	alert("El resultado es "+resultado);
+	
+	return resultado;
+}
+
+suma_y_muestra();
+console.log("Respuesta: "+resultado);
+document.write("Respuesta: "+resultado+"<br>");
+*/
+/*
+function calculaPrecioTotal(precio, porcentajeImpuestos){
+	var gastosEnvio = 10;
+	var precioConImpuestos = (1 + porcentajeImpuestos/100) * precio;
+	var precioTotal = precioConImpuestos + gastosEnvio;
+	return precioTotal.toFixed(2);
+}
+
+var a = parseInt(prompt("Ingrese el precio: "));
+var b = parseInt(prompt("Ingrese el porcentaje de impuestos: "));
+var precioTotal = calculaPrecioTotal(a,b);
+document.write("El precio total es: "+precioTotal);
+*/
+
+var numero = parseInt(prompt("Introduce un numero entero: "));
+
+var resultado = parImpar(numero);
+alert("El numero "+"es "+resultado);
+
+function parImpar(numero){
+	if(numero % 2 == 0){
+		return "par";
+	}else{
+		return "impar";
+	}
+}
+console.log(numero);
+document.write(numero);
+
+
+
+</script>
+
+</body>
+
+
+
+
+
+
+</html>
