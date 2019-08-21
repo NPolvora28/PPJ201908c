@@ -1,0 +1,68 @@
+<html>
+<head>
+
+</head>
+	
+<body>
+
+<script>
+
+/*
+var mostrado = prompt("Ingrese un valor boleano");
+var usuarioPermiteMensajes = prompt("Ingrese un valor boleano");
+
+if(!mostrado && usuarioPermiteMensajes){
+	alert("Es la primera vez que se muestra el mensaje");
+}*/
+
+var variableSwitch = prompt("Ingrese un dato a evaluar");
+var respuestaNumero = parseInt(variableSwitch);
+
+switch(respuestaNumero){
+	case 23:
+	document.write("Usted ingreso <b>23</b>");
+	break;
+	case 24:
+	document.write("Usted ingreso <b>24</b>");
+	break;
+	case 25:
+	document.write("Usted ingreso <b>25</b>");
+	break;
+	default:
+	document.write("No es ninguna de las opciones");
+	
+}
+
+
+var mensaje = "Estoy dentro de un bucle For";
+for(var i=0;i<5;i++){
+	//verdadero
+	alert(mensaje);
+}
+
+
+var dias = ["Lunes","Martes","Miercoles","Jueves","Viernes","Sabado","Domingo"];
+var q = dias.length;
+
+for(var i=0; i<q;i++){
+	alert(dias[i]);
+}
+
+//For para saber el factorial de un numero
+var numero = prompt("Introduce un numero y se mostrara su factorial");
+var resultado = 1;
+
+for (var i=1; i<=numero; i++){
+	resultado *= i;
+}
+alert(resultado);
+
+var dias = ["Lunes","Martes","Miercoles","Jueves","Viernes","Sabado","Domingo"];
+for(i in dias){
+	alert(dias[i]);
+}
+
+
+</script>
+
+</body>
