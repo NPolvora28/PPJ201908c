@@ -1,9 +1,2 @@
-<form action = 'receptor.php' method = 'POST'>
-<fieldset>
-<legend>Datos de los permisos</legend>
-<label>Descripcion:</label>
-<input type = 'text' name = 'descripcion'></input>
-<button>Enviar</button>
-</fieldset>
-</form>
-
+<a href = "permisos.php?accion=mostrar">Ver Permisos</a>
+<a href = "usuarios.php?accion=mostrar">Ver Usuarios</a>

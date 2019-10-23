@@ -13,6 +13,8 @@ $conex->disconect();
 
 echo "Ingresado correctamente";
 
+
+
 //echo $consulta;
 
 
